@@ -1,7 +1,7 @@
-# REPLACEME Wiki
+# SIG/Database Wiki
 
 @TODO - fill in :)
 
 ## Continuous Integration / Continuous Deployment
 
-Actions Runner executes workflow to publish to https://REPLACEME.rocky.page on push to main.
+Actions Runner executes workflow to publish to https://sig-database.rocky.page on push to main.

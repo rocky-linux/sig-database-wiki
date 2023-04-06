@@ -1,13 +1,13 @@
 ---
 # Project information
-site_name: REPLACEME Wiki
-site_url: https://REPLACEME.rocky.page
+site_name: SIG/Database Wiki
+site_url: https://sig-database.rocky.page
 site_description: >-
-  REPLACEME
+  SIG/Database Wiki
 
 # Repository
-repo_url: https://git.resf.org/REPLACEME/wiki
-repo_name: REPLACEME/wiki
+repo_url: https://git.resf.org/sig_database/wiki
+repo_name: sig_database/wiki
 edit_uri: _edit/main/docs/
 
 # Copyright
