@@ -10,12 +10,36 @@ repo_url: https://git.resf.org/sig_database/wiki
 repo_name: sig_database/wiki
 edit_uri: _edit/main/docs/
 
+#MkDocs site structure
+nav:
+    - Home: index.md
+    - About:
+        - About: about.md
+    - Members:
+        - Members: members.md
+    - Community:
+        - Community: community.md
+        - Partners: community/partners.md
+        - Sponsors: community/sponsors.md
+    - Contribute:
+        - Contribute: contribute.md
+        - Mattermost: contribute/mattermost.md
+        - Forums: contribute/forums.md
+        - Git: contribute/git.md
+    - Docs:
+        - Rocky Linux: docs.md
+    - Events:
+        - Events: events.md
+    - Contact:
+        - Contact: contact.md
+
 # Copyright
 copyright: Copyright &copy; 2023 Rocky Enterprise Software Foundation
 
 # Configuration
 theme:
   name: material
+  favicon: assets/favicon.ico
   logo: assets/icon-white.svg
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -44,12 +68,15 @@ theme:
     - navigation.instant
     - navigation.sections
     - navigation.top
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.tracking
     - navigation.path
     - search.highlight
     - search.suggest
     - toc.integrate
-    - content.action.edit
+    - toc.follow
+#    - content.action.edit
 
 # Plugins
 plugins:
@@ -58,6 +85,7 @@ plugins:
   - git-revision-date-localized:
       type: date
   - search
+  - tags
 
 # Extensions
 markdown_extensions:
