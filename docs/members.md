@@ -6,6 +6,7 @@
 - Ivan Novick
 - Mark Watson
 - Gregory Kurtzer
+- Oak Barrett
 
 ## Community Count
 TBD
