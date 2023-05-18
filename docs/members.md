@@ -7,7 +7,7 @@
 - Mark Watson
 - Gregory Kurtzer
 - Oak Barrett
-
+- Kris Macoskey
 ## Community Count
 TBD
 
